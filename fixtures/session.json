@@ -140,6 +140,18 @@
       "t-poster"
     ]
   ],
+  "candidate_only": [
+    "t-lamp"
+  ],
+  "asymmetric_trial": {
+    "candidate_only": [
+      "t-lamp",
+      "t-shade",
+      "t-poster",
+      "t-pot",
+      "t-none"
+    ]
+  },
   "inverse_temperature": 23,
   "duplicate": [
     "t-shade",
