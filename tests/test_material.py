@@ -1,5 +1,9 @@
 """检查本地交换资料的案例是否互相关联。"""
+import sys
 import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from inspect_fixture import read_session
 
